@@ -1,0 +1,53 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Server: Jascha Vincke",
+            "server": "https://businesscentral.vinor.de",
+            "port": 15249,
+            "serverInstance": "BCDE",
+            "tenant": "devtestjvi1",
+            "authentication": "UserPassword",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Server: Axel Humcke",
+            "server": "https://businesscentral.vinor.de",
+            "port": 15249,
+            "serverInstance": "BCDE",
+            "tenant": "CRM20020",
+            "authentication": "UserPassword",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Server: Boris Rempel",
+            "server": "https://businesscentral.vinor.de",
+            "port": 15249,
+            "serverInstance": "BCDE",
+            "tenant": "CRM20019",
+            "authentication": "UserPassword",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}
