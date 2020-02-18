@@ -10,6 +10,7 @@ table 50149 Color2
         field(2; Description; Text[80])
         {
             DataClassification = CustomerContent;
+            Caption = 'Beschreibung';
         }
     }
 }
